@@ -1,0 +1,54 @@
+----Install Chocolatey----
+Set-ExecutionPolicy -ExecutionPolicy Bypass
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+----Upgrade Chocolatey----
+choco upgrade chocolatey
+
+----List of Chocolatey Packages----
+https://chocolatey.org/packages
+
+----Install  Chocolatey Package----
+choco install $packageName -y
+
+----Common Chocolatey Packages----
+choco install office365proplus
+choco install microsoft-teams
+choco install adobereader
+choco install jre8
+choco install vlc
+
+choco install firefox
+choco install firefoxesr
+
+choco install vmwareworkstation
+choco install notepadplusplus.install
+choco install winrar
+choco install adobereader-update
+choco install powershell
+choco install putty.install
+choco install skype
+choco install ccleaner
+choco install malwarebytes
+choco install filezilla
+choco install teamviewer
+choco install paint.net
+
+choco install dotnet3.5
+choco install dotnetfx
+
+choco install treesizefree
+choco install itunes
+choco install winscp
+choco install dropbox
+choco install procexp
+choco install vscode
+
+choco install wsus-offline-update
+choco upgrade wsus-offline-update
+
+choco install keepass
+choco install openvpn
+choco install rufus
+
+
