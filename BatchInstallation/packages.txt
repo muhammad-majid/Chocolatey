@@ -33,3 +33,5 @@ vlc
 #procexp
 #keepass
 #openvpn
+#vmwarevsphereclient
+#vmware-powercli-psmodule
