@@ -11,6 +11,7 @@ https://chocolatey.org/packages
 ----Install  Chocolatey Package----
 choco install $packageName -y
 choco upgrade $packageName -y		//will install if pkg is not installed
+choco upgrade office365proplus -y
 
 ----Uninstall  Chocolatey Package----
 choco uninstall $packageName -y
